@@ -1,0 +1,19 @@
+{% if latest_articles_list %}
+    <ul>
+    {% for article in latest_articles_list %}
+        <li>{{article.title}}</li>
+     {% endfor %}
+    </ul>
+{% else %}
+    <p>No news are available.</p>
+{% endif %}
+
+{% if images_list %} 
+ <ul>
+      {% for image in images_list %}
+      <li>{{image}}</li>
+       {% endfor %}
+   </ul>
+{% else %}  
+    <p>No images available.</p>
+{% endif %}
