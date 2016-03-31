@@ -1,0 +1,33 @@
+
+# 1. 
+   str = "I\'m just a chi-town coder with a nice flow."
+     lst = str.split
+def swap (lst, i. j) : 
+for i = mostcommon(1), j = least_common(1) in lst 
+   lst [i], lst [j] = lst [j], lst [i]
+     return lst
+# 2. 
+  def sortcat (n, lst[]):
+     longest_lst = str.split(max(lst, key = len))
+      return sort.(longest_lst)
+    
+
+ 
+# 3. 
+  #import states.txt
+    with open (states.txt, 'r') as doc: 
+       d = {}
+      for line in doc: 
+       key, val = line.split(','):
+       abbrev [key] = val  
+       return ...
+
+#4  
+     #import states.txt
+      with open (states.txt, 'r') as doc: 
+       d = {}
+      for line in doc: 
+       val, key = line.split(','):
+       abbrev [key] = val        
+       return ... 
+

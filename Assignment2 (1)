@@ -1,0 +1,31 @@
+from datetime import date
+
+
+class Content(object):
+    # list to keep track of all pieces of content
+    existing_content = []
+
+    def __init__(self, year, month, day, contributors):
+        # log each piece of content as existing upon creation
+        self.existing_content.append(self)
+
+        
+        self.creation_date = datetime(year, month, date);
+
+        # list of contirbutors
+        self.contributors = contributors(insistance.contributors);
+
+    # this defines a show method that has nothing in it, to be overridden later
+    def show(self):
+        raise NotImplementedError
+
+
+     class Articles: 
+      def __init__(self, year, month, date, contributors, name):
+    self.existing_content.append(self)
+
+
+     class Pictures: 
+     def __init__(self, article, name):
+    self.existing_content.append(self)
+
